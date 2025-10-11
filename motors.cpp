@@ -14,6 +14,12 @@ void motorInit() {
   driveStop();
 }
 
+enum Speed {
+  SLOW = 100,
+  MED = 175,
+  FAST = 255
+}
+
 // ==============================
 //         Motor control
 // ==============================
