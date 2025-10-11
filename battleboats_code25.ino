@@ -8,7 +8,6 @@ void setup() {
   Serial.begin(9600);
   motorInit();
   ultrasonicInit();
-
 }
 
 void loop() {
@@ -24,10 +23,13 @@ void loop() {
   Serial.println(" cm");
 
   if(lDist > TOLERANCE) {
+    Serial.println("TURNING LEFT");
     turnLeft(MED);
   } else if(rDist > TOLERANCE) {
+    Serial.println("TURNING RIGHT");
     turnRight(MED);
   } else {
+    Serial.println("DRIVING FORWARD");
     driveForward(FAST);
   }
 
