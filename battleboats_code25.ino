@@ -1,7 +1,8 @@
 #include "motors.h"
 #include "ultrasonic.h"
 
-const int TOLERANCE = 0;
+// Tolerance of 30 cm from wall
+const int TOLERANCE = 30;
 
 void setup() {
   Serial.begin(9600);
