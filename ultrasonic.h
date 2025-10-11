@@ -12,6 +12,7 @@
 #define RIGHT_ECHO_PIN 0; // PIN TO BE ADDED
 
 void ultrasonicInit();
-float readDistanceCM();
+float readRightDistanceCM();
+float readLeftDistanceCM();
 
 #endif
