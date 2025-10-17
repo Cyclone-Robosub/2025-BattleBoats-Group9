@@ -24,13 +24,13 @@ void loop() {
 
   if(lDist > TOLERANCE) {
     Serial.println("TURNING LEFT");
-    turnLeft(MED);
+    turnLeft(175);
   } else if(rDist > TOLERANCE) {
     Serial.println("TURNING RIGHT");
-    turnRight(MED);
+    turnRight(175);
   } else {
     Serial.println("DRIVING FORWARD");
-    driveForward(FAST);
+    driveForward(255);
   }
 
 

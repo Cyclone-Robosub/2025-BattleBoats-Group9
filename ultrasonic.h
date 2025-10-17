@@ -6,10 +6,10 @@
 // ==============================
 //       Pin configuration
 // ==============================
-#define LEFT_TRIG_PIN 2
-#define LEFT_ECHO_PIN 3
-#define RIGHT_TRIG_PIN 0; // PIN TO BE ADDED
-#define RIGHT_ECHO_PIN 0; // PIN TO BE ADDED
+#define LEFT_TRIG_PIN 9
+#define LEFT_ECHO_PIN 8
+#define RIGHT_TRIG_PIN 5
+#define RIGHT_ECHO_PIN 4
 
 void ultrasonicInit();
 float readRightDistanceCM();

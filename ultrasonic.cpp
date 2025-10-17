@@ -4,6 +4,8 @@ void ultrasonicInit() {
   // configure ultrasonic pins
   pinMode(LEFT_TRIG_PIN, OUTPUT);
   pinMode(LEFT_ECHO_PIN, INPUT);
+  pinMode(RIGHT_TRIG_PIN, OUTPUT);
+  pinMode(RIGHT_ECHO_PIN, INPUT);
 }
 
 float readLeftDistanceCM() {
